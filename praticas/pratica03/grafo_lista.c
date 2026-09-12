@@ -9,6 +9,7 @@ GrafoLista* criar_grafo_lista(int n) {
     for (int i = 0; i < n; i++) {
         grafo->adj[i] = NULL;
     }
+    
     return grafo;
 }
 

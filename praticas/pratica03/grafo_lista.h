@@ -6,6 +6,7 @@ typedef struct No {
     struct No *prox;
 } No;
 
+
 typedef struct {
     int n;
     No **adj;

@@ -8,6 +8,7 @@ OBJ = *.o
 
 all: $(TARGET)
 
+
 $(TARGET): $(SRC)
 	$(CC) $(CFLAGS) -o $(TARGET) $(SRC)
 

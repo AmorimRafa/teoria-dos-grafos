@@ -108,6 +108,7 @@ static void dfs_visit(GrafoLista *grafo, int u, int *estado, Pilha *p, int *tem_
         if (estado[v] == 0) {
             dfs_visit(grafo, v, estado, p, tem_ciclo);
         }
+        
         atual = atual->prox;
     }
     estado[u] = 2; // Visitado

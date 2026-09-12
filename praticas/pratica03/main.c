@@ -49,5 +49,6 @@ int main() {
 
     liberar_grafo_lista(ciclo);
 
+    
     return 0;
 }
