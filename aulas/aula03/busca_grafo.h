@@ -4,6 +4,6 @@
 
 
 void dfs(GrafoLista *g, int v, int *visitado);
-void bfs(int u);
+void bfs(GrafoLista *g, int v, int *visitado);
 
 #endif

@@ -33,21 +33,24 @@ int main(){
     dfs(grafo, 0, visitado);
     printf("\n");
 
-    memset(visitado, 0, sizeof(visitado));
-    dfs(grafo, 1, visitado);
-    printf("\n");
+    // memset(visitado, 0, sizeof(visitado));
+    // dfs(grafo, 1, visitado);
+    // printf("\n");
 
-    memset(visitado, 0, sizeof(visitado));
-    dfs(grafo, 2, visitado);
-    printf("\n");
+    // memset(visitado, 0, sizeof(visitado));
+    // dfs(grafo, 2, visitado);
+    // printf("\n");
 
-    memset(visitado, 0, sizeof(visitado));
-    dfs(grafo, 3, visitado);
-    printf("\n");
+    // memset(visitado, 0, sizeof(visitado));
+    // dfs(grafo, 3, visitado);
+    // printf("\n");
 
-    memset(visitado, 0, sizeof(visitado));
-    dfs(grafo, 4, visitado);
-    printf("\n");
+    // memset(visitado, 0, sizeof(visitado));
+    // dfs(grafo, 4, visitado);
+    // printf("\n");
     
+
+    printf("inicia bfs pelo vertice 1 \n");
+    bfs(grafo, 0, visitado);
     return 0;
 }
